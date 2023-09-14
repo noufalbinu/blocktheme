@@ -1,0 +1,315 @@
+
+
+    <div class="slider" data-state="0"><!----slider--->
+        <div class="container ststxt">
+            <div class="status">
+                <div class="point" data-current="0"></div>
+                <div class="stat" data-key="0"></div>
+                <div class="stat" data-key="1"></div>
+                <div class="stat" data-key="2"></div>
+                <div class="stat" data-key="3"></div>
+                <div class="stat" data-key="4"></div>
+                <div class="stat" data-key="5"></div>
+            </div>
+            <div class="text">
+                <div  class="current" data-key="0"><?php echo get_option('t5');?></div>
+                <div data-key="1"><h2><?php echo get_option('t1');?></h2><p>Hello this is a sample text make it look better preview</p></div>
+                <div data-key="2"><h2><?php echo get_option('t2');?></h2><p>Hello this is a sample text make it look better preview</p></div>
+                <div data-key="3"><h2><?php echo get_option('t3');?></h2><p>Hello this is a sample text make it look better preview</p></div>
+                <div data-key="4"><h2><?php echo get_option('t4');?></h2><p>Hello this is a sample text make it look better preview</p></div>
+                <div data-key="5"><h2><?php echo get_option('t5');?></h2><p>Hello this is a sample text make it look better preview</p></div>
+            </div>
+        </div>
+        <div class="cover-backgroud">
+            <div class="image current" data-key="0">
+              <img src="<?php echo get_option('slide1');?>" alt="<?php echo get_option('t1');?>" />
+            </div>
+            <div class="image" data-key="1">
+               <img src="<?php echo get_option('slide2');?>" alt="<?php echo get_option('t2');?>" />
+            </div>
+            <div class="image" data-key="2">
+               <img src="<?php echo get_option('slide3');?>" alt="<?php echo get_option('t3');?>" />
+            </div>
+            <div class="image" data-key="3">
+               <img src="<?php echo get_option('slide4');?>" alt="<?php echo get_option('t4');?>" />
+            </div>
+            <div class="image" data-key="4">
+               <img src="<?php echo get_option('slide5');?>" alt="<?php echo get_option('t5');?>" />
+            </div>
+            <div class="image" data-key="5">
+               <img src="<?php echo get_option('slide4');?>" alt="<?php echo get_option('t4');?>" />
+            </div>
+        </div>
+
+        <span class="play-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/play.png" alt="Play Button"></span>
+
+        
+    </div><!---- slider-end ---->
+    <!---- bio-story ---->
+    <div class="bio ">
+      <div class="container-fluid pt-50">
+
+            <div class="row">
+               <div class="col-6 bg-gray text-light">
+                  <h2><?php echo get_option('companysnippettitle');?></h2>
+                  <p><?php echo get_option('companysnippet');?></p>
+               </div>
+
+               <div class="col-6">
+               </div>
+            </div>
+      </div>
+    </div>
+    <!---- bio-story-end ---->
+    <!---- project-carousel ---->
+    <div class="container-fluid g-0 pt-50">
+
+<div class="carousel">
+         <div class="nav nav-left">
+           <div class="ion-chevron-left carousel-arrow-icon-left"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dashicons_arrow-left-alt.svg"  alt="Left arrow"></div>
+         </div>
+         <div class="out-link">
+            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/out-link.png" alt="See all Projects">See all Project</a>
+
+         </div>
+
+        <div class="carousel-content">
+         
+          
+          <div class="slide slide-1">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wrk1.png" class="teamy_avatar" alt="The demo photo">
+               <span class="project-text">
+               <b>Qatar</b>
+                  <h3>Sample text</h3>
+                  
+               </span>
+            </div>
+            
+          </div>
+          <div class="slide slide-2">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wrk2.png" class="teamy_avatar" alt="The demo photo">
+               <span class="project-text">
+                  <h3>Sample text</h3>
+                  <b>Qatar</b>
+               </span>
+            </div>
+          </div>
+          <div class="slide slide-3">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wrk3.png" class="teamy_avatar" alt="The demo photo">
+               <span class="project-text">
+                  <h3>Sample text</h3>
+                  <b>Qatar</b>
+               </span>
+            </div>
+          </div>
+          <div class="slide slide-4">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wrk4.png" class="teamy_avatar" alt="The demo photo">
+               <span class="project-text">
+                  <h3>Sample text</h3>
+                  <b>Qatar</b>
+               </span>
+         </div>
+          </div>
+          <div class="slide slide-5">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wrk5.png" class="teamy_avatar" alt="The demo photo">
+               <span class="project-text">
+                  <h3>Sample text</h3>
+                  <b>Qatar</b>
+               </span>
+            </div>
+            
+         </div>
+        
+        </div>
+
+      <div class="nav nav-right">
+        <div class="ion-chevron-right carousel-arrow-icon-right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dashicons_arrow-right-alt.svg"  alt="right arrow"></div>
+      </div>
+    </div>
+    
+</div>
+    <!---- project-end ---->
+    <!---- team-1 ---->
+    <section class="section">
+    <div class="">
+        <div class="row">
+			<div class="section_content teamy-team">
+				<div class="col-md-3">
+					<div class="teamy teamy_style1 teamy_mask-circle">
+						<div class="teamy_layout">
+							<div class="teamy_preview"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/team1.png" class="teamy_avatar" alt="The demo photo"> </div>
+							<div class="teamy_back">
+                        <div class="teamy_content">
+							      <h3 class="teamy_name">Suzan Lois</h3>
+						         <span class="teamy_post">CEO/Founder</span> 
+                        </div>
+                        <div class="teamy_back-inner"> <a href="#0" class="social"> <i class="fa fa-facebook"></i> </a> <a href="#0" class="social"> <i class="fa fa-dribbble"></i> </a> <a href="#0" class="social"> <i class="fa fa-twitter"></i> </a> <a href="#0" class="social"> <i class="fa fa-envelope-o"></i> </a> </div>
+                     </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="teamy teamy_style1 teamy_mask-circle">
+						<div class="teamy_layout">
+							<div class="teamy_preview"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/team2.png" class="teamy_avatar" alt="The demo photo"> </div>
+							<div class="teamy_back">
+                        <div class="teamy_content">
+							   <h3 class="teamy_name">Noel Flantier</h3>
+						      <span class="teamy_post">Product Manager</span>
+                     </div>
+                     <div class="teamy_back-inner"> <a href="#0" class="social"> <i class="fa fa-facebook"></i> </a> <a href="#0" class="social"> <i class="fa fa-dribbble"></i> </a> <a href="#0" class="social"> <i class="fa fa-twitter"></i> </a> <a href="#0" class="social"> <i class="fa fa-envelope-o"></i> </a> </div>   
+                  </div>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-3">
+					<div class="teamy teamy_style1 teamy_mask-circle">
+						<div class="teamy_layout">
+							<div class="teamy_preview"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/team1.png" class="teamy_avatar" alt="The demo photo"> </div>
+							<div class="teamy_back">
+                        <div class="teamy_content">
+							      <h3 class="teamy_name">Rosanna Pattie</h3>
+						         <span class="teamy_post">Joomla Manager</span> 
+                        </div>
+                        <div class="teamy_back-inner"> <a href="#0" class="social"> <i class="fa fa-facebook"></i> </a> <a href="#0" class="social"> <i class="fa fa-dribbble"></i> </a> <a href="#0" class="social"> <i class="fa fa-twitter"></i> </a> <a href="#0" class="social"> <i class="fa fa-envelope-o"></i> </a> </div>
+                     </div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="teamy teamy_style1 teamy_mask-circle">
+						<div class="teamy_layout">
+							<div class="teamy_preview"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/team4.png" class="teamy_avatar" alt="The demo photo"> </div>
+							<div class="teamy_back">
+                        <div class="teamy_content">
+							       <h3 class="teamy_name">Rose Alpha</h3>
+						         <span class="teamy_post">Photographer</span> 
+                       </div>
+                       <div class="teamy_back-inner"> <a href="#0" class="social"> <i class="fa fa-facebook"></i> </a> <a href="#0" class="social"> <i class="fa fa-dribbble"></i> </a> <a href="#0" class="social"> <i class="fa fa-twitter"></i> </a> <a href="#0" class="social"> <i class="fa fa-envelope-o"></i> </a> </div>
+                     </div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    <!---- team-1-end ---->
+    
+    <!---- team-2 ---->
+    <div class="team-2">
+      <div class="section_header">
+      <span class="section_hint">Lorem ipsum dolor samet</span> 
+			<h2 class="title section_title">management team</h2>
+		   
+      </div>
+       <div class="container">
+
+<div class="carousel">
+      <div class="nav-2 nav-left-2">
+        <div class="ion-chevron-left carousel-arrow-icon-left-2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dashicons_arrow-left-alt.svg"  alt="Left arrow"></div>
+      </div>
+
+        <div class="carousel-content-2">
+          
+          <div class="slide slide-1">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/th1.png" class="teamy_avatar" alt="The demo photo">
+
+            </div>
+            
+          </div>
+          <div class="slide slide-2">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/th2.png" class="teamy_avatar" alt="The demo photo">
+
+            </div>
+          </div>
+          <div class="slide slide-3">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/th3.png" class="teamy_avatar" alt="The demo photo">
+
+            </div>
+          </div>
+          <div class="slide slide-4">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/th1.png" class="teamy_avatar" alt="The demo photo">
+       
+         </div>
+          </div>
+          <div class="slide slide-5">
+            <div>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/th2.png" class="teamy_avatar" alt="The demo photo">
+            </div>
+            
+         </div>
+        
+        </div>
+
+      <div class="nav-2 nav-right-2">
+        <div class="ion-chevron-right carousel-arrow-icon-right-2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dashicons_arrow-right-alt.svg"  alt="right arrow"></div>
+      </div>
+    </div>
+    
+</div>
+</div>
+    <!---- team-2-end ---->
+    <!---- location-map ---->
+    <div class="location-map py-50"">
+      <div class="earth-img"> 
+        <div class="container">
+            <h2 class="text-center text-light">Location</h2>
+            <div class="row">
+                <div class="col-5">
+                    
+                </div>
+                <div class="col-7 text-light">
+                    <span>
+                       <b>qatar</b>
+                       <p>Headquarter and manufacturing</p>
+                    </span>
+                    <span>
+                       <b>Switzerland</b>
+                       <p>Design studio headquarters</p>
+                    </span>
+                    <span>
+                       <b>India</b>
+                       <p>Design and back office</p>
+                    </span>
+                    <span>
+                       <b>China</b>
+                       <p>Procurement and contract manufacturing</p>
+                    </span>
+                    <span>
+                       <b>Ireland</b>
+                       <p>Manufacturing Design contracting for uk</p>
+                    </span>
+                    <span>
+                       <b>United States</b>
+                       <p>Project offices</p>
+                    </span>
+                    <span>
+                       <b>Canada</b>
+                       <p>Project Manufacturing and contracting</p>
+                    </span>
+                    <span>
+                       <b>Thailand</b>
+                       <p>Manufacturing and contracting</p>
+                    </span>
+                    <span class="pt-4">
+                       <b class="coming-soon ps-5">Australia and KSA<br> Coming soon</b>                       
+                    </span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!---- location-map-end ---->

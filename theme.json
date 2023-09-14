@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "settings": {
+            "blocks": {
+                "core/paragraph": {
+                    "color": {
+                        "palette": [
+                            {
+                                "name": "Blue",
+                                "slug": "blue",
+                                "color": "#0000FF"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+}        
